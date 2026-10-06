@@ -1,0 +1,17 @@
+{
+  "split": "test",
+  "images": 100,
+  "fused_detections_total": 3969,
+  "test_precision": 0.9130543261767745,
+  "test_recall": 0.9088012200914626,
+  "test_map50": 0.9520700443626866,
+  "test_map": 0.6422854964005024,
+  "rgb_map50": 0.9746396322419729,
+  "rgb_map": 0.6670172678896248,
+  "depth_map50": 0.9241823736739765,
+  "depth_map": 0.5546611448662746,
+  "fusion_rule": "C_combined=(C_rgb+C_depth)/2 for IoU>=0.5 matches; unmatched conf*=0.5",
+  "rgb_weights": "/Users/randydavoh/Desktop/untitled folder/results/weights/rgb_best.pt",
+  "depth_weights": "/Users/randydavoh/Desktop/untitled folder/results/weights/depth_best.pt",
+  "device": "cpu"
+}

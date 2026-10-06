@@ -1,0 +1,31 @@
+{
+  "imgsz": 640,
+  "source": "ultralytics.utils.torch_utils.get_flops / get_num_params on adapted YOLOv8n-seg stems",
+  "models": {
+    "rgb": {
+      "name": "rgb",
+      "parameters_M": 3.41,
+      "parameters": 3409968,
+      "GFLOPs_640": 12.141
+    },
+    "depth": {
+      "name": "depth",
+      "parameters_M": 3.41,
+      "parameters": 3409680,
+      "GFLOPs_640": 12.082
+    },
+    "early": {
+      "name": "early",
+      "parameters_M": 3.41,
+      "parameters": 3410112,
+      "GFLOPs_640": 12.171
+    },
+    "late": {
+      "name": "late_fusion_approx",
+      "parameters_M": 6.82,
+      "parameters": 6819648,
+      "GFLOPs_640": 24.223,
+      "note": "Sum of RGB + depth forward passes (two networks)."
+    }
+  }
+}

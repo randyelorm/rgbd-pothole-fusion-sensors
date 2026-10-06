@@ -1,0 +1,3 @@
+Suggested Data Availability Statement (paste into manuscript):
+
+Data Availability Statement: The PothRGBD dataset is publicly available from the dataset authors [7] (IEEE DataPort, https://doi.org/10.21227/z8eq-sf60; https://github.com/ymyurdakul/PData). Training/evaluation scripts, train/val/test split IDs, Ultralytics training logs, and metric JSON files for this study are publicly available at https://github.com/randyelorm/rgbd-pothole-fusion-sensors.

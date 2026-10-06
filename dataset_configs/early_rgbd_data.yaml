@@ -1,0 +1,7 @@
+path: /Users/randydavoh/Desktop/untitled folder/pothole_fusion/datasets/rgbd
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: pothole
+channels: 4

@@ -1,0 +1,43 @@
+{
+  "checkpoint": "/Users/randydavoh/Desktop/Project/results/weights/early_best.pt",
+  "method": "Per-input-channel mean absolute stem Conv2d weight (L1) and relative share.",
+  "in_channels": 4,
+  "out_channels": 16,
+  "channels": {
+    "R": {
+      "mean_abs_L1": 0.1765652447938919,
+      "relative_L1_share": 0.317116133351359
+    },
+    "G": {
+      "mean_abs_L1": 0.1459406018257141,
+      "relative_L1_share": 0.2621134153777797
+    },
+    "B": {
+      "mean_abs_L1": 0.1420031189918518,
+      "relative_L1_share": 0.25504158573843405
+    },
+    "D": {
+      "mean_abs_L1": 0.0922752097249031,
+      "relative_L1_share": 0.16572886553242716
+    }
+  },
+  "is_smoke_checkpoint": false,
+  "initialization_copy_rgb": {
+    "R": {
+      "mean_abs_L1": 0.1159709021449089,
+      "relative_L1_share": 0.2712048769430176
+    },
+    "G": {
+      "mean_abs_L1": 0.11952853202819824,
+      "relative_L1_share": 0.2795246067792198
+    },
+    "B": {
+      "mean_abs_L1": 0.0761432945728302,
+      "relative_L1_share": 0.178065639334745
+    },
+    "D": {
+      "mean_abs_L1": 0.1159709021449089,
+      "relative_L1_share": 0.2712048769430176
+    }
+  }
+}

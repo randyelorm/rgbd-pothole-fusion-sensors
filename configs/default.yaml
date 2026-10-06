@@ -1,0 +1,18 @@
+seed: 42
+imgsz: 640
+epochs: 100
+batch: 16  # use 16 on Kaggle CUDA; drop to 8 on Mac MPS if OOM
+device: auto  # cuda > mps > cpu
+workers: 2
+optimizer: SGD
+lr0: 0.01
+cos_lr: true
+model: yolov8n-seg.pt
+project: pothole_fusion/runs
+data_root: newdataset
+output_root: pothole_fusion/datasets
+split:
+  train: 0.80
+  val: 0.10
+  test: 0.10
+depth_clip_mm: 3000

@@ -1,0 +1,11 @@
+{
+  "save_dir": "/kaggle/working/pothole_project/pothole_fusion/runs/early_yolov8n_seg",
+  "best": "/kaggle/working/pothole_project/pothole_fusion/runs/early_yolov8n_seg/weights/best.pt",
+  "test_map50": 0.9738376322096349,
+  "test_map": 0.6541323328976463,
+  "test_precision": 0.9333147389523105,
+  "test_recall": 0.9615384615384616,
+  "parameters_M": 3.41,
+  "GFLOPs": 12.171,
+  "GFLOPs_imgsz": 640
+}

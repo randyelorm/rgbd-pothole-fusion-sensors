@@ -1,0 +1,5 @@
+{
+  "protocol": "At inference, set depth channel (index 3) to 0 while keeping RGB; compare mask mAP to full RGB-D input.",
+  "status": "deferred_to_kaggle_100epoch_checkpoint",
+  "note": "Local smoke_early checkpoint is not the 100-epoch Kaggle model used for Tables 5.1\u20135.5; do not mix ablation numbers from smoke with those tables."
+}

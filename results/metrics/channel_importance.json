@@ -1,0 +1,48 @@
+{
+  "checkpoint": "/Users/randydavoh/Desktop/untitled folder/pothole_fusion/runs/smoke_early/weights/best.pt",
+  "method": "Per-input-channel mean absolute stem Conv2d weight (L1) and relative share; also RMS (L2).",
+  "in_channels": 4,
+  "out_channels": 16,
+  "channels": {
+    "R": {
+      "mean_abs_L1": 0.11847110837697983,
+      "rms_L2": 0.16275835037231445,
+      "relative_L1_share": 0.2943064868450165
+    },
+    "G": {
+      "mean_abs_L1": 0.11890547722578049,
+      "rms_L2": 0.1783294826745987,
+      "relative_L1_share": 0.29538553953170776
+    },
+    "B": {
+      "mean_abs_L1": 0.07805011421442032,
+      "rms_L2": 0.10450008511543274,
+      "relative_L1_share": 0.1938924640417099
+    },
+    "D": {
+      "mean_abs_L1": 0.08711659908294678,
+      "rms_L2": 0.0987267792224884,
+      "relative_L1_share": 0.21641546487808228
+    }
+  },
+  "is_smoke_checkpoint": true,
+  "initialization_copy_rgb": {
+    "R": {
+      "mean_abs_L1": 0.1159709021449089,
+      "relative_L1_share": 0.2712048590183258
+    },
+    "G": {
+      "mean_abs_L1": 0.11952853202819824,
+      "relative_L1_share": 0.2795245945453644
+    },
+    "B": {
+      "mean_abs_L1": 0.0761432945728302,
+      "relative_L1_share": 0.17806562781333923
+    },
+    "D": {
+      "mean_abs_L1": 0.1159709021449089,
+      "relative_L1_share": 0.2712048590183258
+    }
+  },
+  "interpretation": "L1 = mean absolute stem Conv2d weight per input channel. Relative share = L1 / sum(L1). Depth contributing after training indicates the stem did not ignore D."
+}

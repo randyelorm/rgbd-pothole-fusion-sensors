@@ -1,0 +1,11 @@
+{
+  "dataset": "PothRGBD (Yurdakul & Ta\u015fdemir)",
+  "dataset_doi": "10.21227/z8eq-sf60",
+  "seed": 42,
+  "counts": {
+    "train": 794,
+    "val": 99,
+    "test": 100
+  },
+  "note": "IDs are image stems matching the RGB/depth paired files used in this study. Obtain original images from the dataset authors; do not redistribute PothRGBD images here."
+}
