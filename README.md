@@ -52,4 +52,6 @@ PothRGBD images remain under the original dataset license / terms.
 
 ## Citation
 
-If you use these artifacts, cite the Sensors manuscript (once published) and the PothRGBD dataset paper/DOI above.
+Davoh, R., & Sekyerehene, P. B. (2026). Does Depth Improve Pothole Instance Segmentation? A Controlled Comparison of Early and Late RGB-D Fusion in YOLOv8n-seg. Zenodo. https://doi.org/10.5281/zenodo.23202453
+
+Also cite the PothRGBD dataset (Yurdakul & Taşdemir) via the DOI/links in the Dataset section above.
